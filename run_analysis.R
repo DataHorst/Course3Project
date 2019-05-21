@@ -1,7 +1,7 @@
 library(tidyverse)
 
 # Data directory
-dir_data <- "~/Dokumente/git/Course3Project/data/"
+dir_data <- "./"
 
 # Load training data
 load_test_data = FALSE
