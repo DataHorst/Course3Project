@@ -89,4 +89,4 @@ data_avg <-
   group_by(subject, activity) %>%
   summarise_all(mean)
 
-
+print(data_cleaned)
