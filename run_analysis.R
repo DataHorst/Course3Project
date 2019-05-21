@@ -81,6 +81,7 @@ if (!exists("data_clean2")){
 
 ## Cleaned data
 data_cleaned <- data_clean2
+write.table(data_cleaned,file = paste(dir_data,"cleaned_data.txt", sep=""), row.names = FALSE)
 
 ## Averaged data per subject/activity
 data_avg <- 
